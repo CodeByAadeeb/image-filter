@@ -16,7 +16,7 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
             image[i][j].rgbtGreen = grayscale_value;
             image[i][j].rgbtBlue = grayscale_value;
 
-            //i need to find aver
+        
         }
     }
     return;
